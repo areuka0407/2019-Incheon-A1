@@ -263,7 +263,7 @@ input[type="checkbox"]:checked + .custom-checkbox {
 
 .transport-table .thead { height: 50px; border-bottom: 1px solid #bbb; }
 .transport-table .titem { color: #555; min-height: 100px; padding: 20px 0; border-bottom: 1px solid #ddd; }
-.transport-table .titem[disabled] { opacity: 0.6; pointer-events: none; }
+.transport-table .titem.disabled { opacity: 0.6; pointer-events: none; }
 .transport-table .titem:hover { background-color: #f8f8f8; }
 .transport-table .thead, .transport-table .titem {
     width: 100%;
