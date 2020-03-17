@@ -133,7 +133,8 @@ input[type="checkbox"]:checked + .custom-checkbox {
     position: relative;
     text-align: center;
     transform: translateY(-50%);
-    margin: 50vh auto;
+    top: 50%;
+    margin: 0 auto;
     overflow: hidden;
 }
 
